@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+.container {
+    /* margin-top: 72px; */
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.row {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    /* margin: 1em auto; */
+    margin-right: 750px;
+}
+
+.projectCard {
+    margin: 1em auto;
+    width: 450px;
+    height: 250px;
+    background-color: rgb(18,32,25);
+    border-radius: 5px;
+}
